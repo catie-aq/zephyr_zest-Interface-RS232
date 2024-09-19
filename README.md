@@ -9,6 +9,7 @@ Shield name: zest_interface_rs232.
 
 ## Sample Output 
 This is the output from the JLink UART on the 6tron zest_core_stm32l4a6rg board.
+
 *** Booting Zephyr OS build v3.7.0 ***
 
  ```shell
