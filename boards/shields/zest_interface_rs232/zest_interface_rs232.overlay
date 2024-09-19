@@ -2,3 +2,11 @@
  * Copyright (c) 2024, CATIE
  * SPDX-License-Identifier: Apache-2.0
  */
+
+ */
+
+ / {
+    aliases {
+        zest-interface-rs232-uart = &sixtron_uart;
+    };
+};
