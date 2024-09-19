@@ -3,8 +3,12 @@
 Zest_Interface_RS232 board support for Zephyr OS.
 
 ## Usage
-This board enables the following sensors:
-- List Zest_Interface_RS232 sensors here
+The zest-interface-rs232-uart alias is exposed by the overlay, allowing to use the RS232 interface with the default 6TRON uart interface (sixtron_uart).
 
-:bulb: Sensors' drivers should also be added to your workspace:
-- List Zephyr OS drivers here
+Shield name: zest_interface_rs232.
+
+## Sample Output 
+This is the output from the JLink UART on the 6tron zest_core_stm32l4a6rg board.
+*** Booting Zephyr OS build v3.7.0 ***
+[00:00:00.000,000] <inf> main: UART device MAX3227IDBR is ready, sending message...
+[00:00:00.002,000] <inf> main: Message sent!
