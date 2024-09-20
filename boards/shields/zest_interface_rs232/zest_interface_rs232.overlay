@@ -3,10 +3,4 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-*/
-
-/ {
-    aliases {
-        zest-interface-rs232-uart = &sixtron_uart;
-    };
-};
+zest_interface_rs232_uart: &sixtron_uart {};
